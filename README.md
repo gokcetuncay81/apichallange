@@ -10,6 +10,7 @@ mvn surefire-report:report
 Here is the link for API Test Repository:
 https://github.com/gokcetuncay81/apichallange
 And the reasons why did I need these dependencies in my project:
+
 1- “slf4j-nop” For logging errors.
 
 2- “rest-assured” For testing and validating REST services
