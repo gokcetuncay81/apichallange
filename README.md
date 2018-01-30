@@ -11,10 +11,15 @@ Here is the link for API Test Repository:
 https://github.com/gokcetuncay81/apichallange
 And the reasons why did I need these dependencies in my project:
 1- “slf4j-nop” For logging errors.
+
 2- “rest-assured” For testing and validating REST services
+
 3- “hamcrest-junit” For using matchers.
+
 4- “jayway json-path” For parsing the Json.
+
 5- “junit” As the testing framework.
+
 6- “jackson-databind” For data-binding functionality and tree-model for Java.
 
 There is the HelperMethods class, defining all of the handy java methods to be used from TestSuite. Most tricky method of this class is getComponentList since I need to get each componenet seperately to check analytics_name. Jayway implicitly converts a Json's part to LinkedHashMap so I used Jackson to covert it back to Json.
