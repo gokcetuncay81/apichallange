@@ -1,4 +1,4 @@
-# apichallange
+#  API Challange
 
 To run the tests from terminal use the commands below;
 
